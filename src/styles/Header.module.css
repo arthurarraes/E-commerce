@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.itens{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 730px) {
+    
+    header{
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav{
+        margin: 1rem 0 0;
+    }
+    .itens{
+        margin: 1rem 0 0;
+    }
+}

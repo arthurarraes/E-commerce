@@ -1,0 +1,67 @@
+.principal{
+    background-image: url(../assets/background.svg);
+    display: grid;
+    padding: 10rem 2rem;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    order: 2;
+    background: #FFF3E3 ;
+    padding: 2rem;
+    border-radius: 5px;
+}   
+.banner h1{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.banner h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #B88E2F;
+    line-height: 55px;
+}
+.banner h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.banner button{
+    margin: 2rem 0 0;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #B88E2F;
+    border: #B88E2F;
+    color: white;
+    padding: 1.5rem 3.5rem;
+}
+
+@media screen and (max-width: 730px) {
+    .principal{
+        padding: 5rem;
+        display: flex;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .banner{
+        padding: 1rem;
+        text-align: center;        
+    }
+    .banner h1{
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+    .banner h2{
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: #B88E2F;
+        line-height: 45px;
+    }
+    .banner h3{
+        margin: 0.5rem 0;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
