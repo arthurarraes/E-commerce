@@ -1,7 +1,7 @@
 # E-commerce de Itens Domésticos - Front-end (React + TypeScript)
 Bem-vindo ao repositório do projeto de E-commerce de Itens Domésticos! Este é um projeto front-end desenvolvido utilizando React e TypeScript. Neste repositório, você encontrará o código fonte para a construção de um site de comércio eletrônico que permite aos usuários visualizar e comprar itens domésticos.
 
-**Descrição do Projeto**
+# **Descrição do Projeto**
 
 O objetivo deste projeto é fornecer uma interface amigável e intuitiva para os usuários explorarem uma variedade de itens domésticos disponíveis para compra. Os usuários poderão navegar pelos produtos, visualizar detalhes e adicionar os itens desejados ao carrinho de compras. Este projeto é apenas a parte front-end do sistema e não inclui integrações com back-end ou funcionalidades de processamento de pagamentos.
 
@@ -33,4 +33,5 @@ Antes de executar o projeto localmente, é necessário ter instalado o Node.js e
 ```http://localhost:3000```
 
 **Contribuição**
+
 Se você deseja contribuir para o projeto, fique à vontade para abrir uma issue ou enviar uma solicitação de pull request. Sua contribuição será muito bem-vinda!
